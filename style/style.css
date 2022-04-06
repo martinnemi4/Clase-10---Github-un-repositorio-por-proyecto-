@@ -1,0 +1,92 @@
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+/*Cambio de Fondo de la Página*/
+body {
+    background-color: hsla(214, 98%, 50%, 0.329);
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "h1 h1 h1"
+    "section section section"
+    "p p p"
+    "footer footer footer";
+    grid-template-rows: auto 20% 60% 40% auto;
+}
+
+/*Configuracion del Titulo*/
+h1{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    grid-area: h1;
+}
+
+/*Items del menú en horizontal*/
+.menu1 {
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+    border-radius: 2px solid;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*Logo al lado del menú*/
+.linea {
+    display: inline;
+}
+
+#imageninicio {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:red;
+}
+
+header {
+    display: grid;
+    border: 1px black solid;
+    align-content: center;
+    grid-area: header;
+}
+
+.header-container {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    grid-area: section;
+}
+
+p {
+    grid-area: p;
+}
+
+footer {
+    grid-area: footer;
+    border: 1px black solid;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
